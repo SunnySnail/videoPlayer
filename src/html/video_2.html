@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta name="wap-font-scale" content="no">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <title>videoExample</title>
+    <link rel="stylesheet" href="../sass/index.scss">
+    <style>
+        p {
+            text-align: center;
+        }
+        .liveplayer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #000;
+            display: none;
+        }
+
+        video {
+            display: none;
+            height: 100%;
+            width: 100%;
+        }
+
+        .btn {
+            margin: 100px auto;
+            border-radius: 10px;
+            background-color: #ce3249;
+            width: 100px;
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <p>模拟全屏播放<p>
+    <div class="liveplayer">
+        <video
+            src="http://godsong.bs2dl.yy.com/dmZlNTY3Y2VjZWRlNDM3NGM4MzNkZGE3OGJmYTJhYTVkMTIwMjY0NDI1N21j"
+            playsinline
+            controls>
+        </video>
+    </div>
+
+    <div class="btn">点击播放</div>
+
+    <script type="text/javascript" src="../js/video_2.js"></script>
+</body>
+</html>
+
+<!-- x5-video-player-type="h5" -->
+<!-- http://hls.yy.com/newlive/54880976_54880976.m3u8?org=yyweb&appid=0&uuid=cb29bdeffed14e3a922df2c209584d0c&t=1487585486&tk=38fdfc15c6af84bddf6b1a3f912cf60b&uid=0&ex_audio=0&ex_coderate=1200&ex_spkuid=0 -->
+<!-- http://godsong.bs2dl.yy.com/dmZlNTY3Y2VjZWRlNDM3NGM4MzNkZGE3OGJmYTJhYTVkMTIwMjY0NDI1N21j -->
